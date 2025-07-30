@@ -1,0 +1,45 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar .navbar__in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1150px;
+  padding: 10px 20px;
+  margin: auto;
+}
+.navbar .navbar__in .navbar-logo {
+  width: 50px;
+}
+.navbar .navbar__in ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar .navbar__in ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 5px 5px 5px 45px;
+  position: relative;
+}
+.navbar .navbar__in ul li:hover {
+  color: var(--primary-color);
+}
+.navbar .navbar__in ul li img {
+  width: 30px;
+  transition: all 0.3s;
+  position: absolute;
+  left: 0px;
+}
+.navbar .navbar__in ul li:hover img {
+  filter: brightness(0) saturate(100%) invert(17%) sepia(87%) saturate(3169%) hue-rotate(225deg) brightness(90%) contrast(96%);
+}/*# sourceMappingURL=Navbar.css.map */
