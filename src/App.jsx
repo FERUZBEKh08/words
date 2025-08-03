@@ -31,7 +31,7 @@ export default function App() {
   useEffect(() => {
     const getData = async () => {
       try {
-        const res = await fetch("../public/data/words.json");
+        const res = await fetch("https://alnkjqfwdwdngfnehzdm.supabase.co/storage/v1/object/public/words//words.json");
         const data = await res.json();
         setWords(data);
       } catch (err) {

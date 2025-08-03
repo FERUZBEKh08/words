@@ -123,7 +123,7 @@ body {
   margin: auto;
   background-color: var(--bg-accent-color);
   border-radius: 20px;
-  font-size: 25px;
+  font-size: 17px;
   animation: animationcanYouSearch 0.3s forwards;
 }
 
@@ -136,7 +136,7 @@ body {
   margin: auto;
   background-color: rgba(255, 0, 0, 0.563);
   border-radius: 20px;
-  font-size: 25px;
+  font-size: 17px;
   animation: animationundefined 0.3s forwards;
 }
 
