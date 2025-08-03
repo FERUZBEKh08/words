@@ -22,7 +22,7 @@
   {
     "id": 3,
     "english": "to",
-    "uzbek": "-ga,uchun",
+    "uzbek": "-ga, -dan, - uchun",
     "category": "Grammar",
     "partOfSpeech": "preposition",
     "exampleEn": "She goes to school.",
@@ -489,6 +489,246 @@
     "exampleUz": "Men har kuni maktabga boraman.",
     "level": "beginner"
   },  
+  {
+    "id": 26,
+    "english": "they",
+    "uzbek": "ular",
+    "category": "Pronoun",
+    "partOfSpeech": "pronoun",
+    "exampleEn": "They are going to school.",
+    "exampleUz": "Ular maktabga ketishyapti.",
+    "level": "beginner"
+  },
+  {
+    "id": 27,
+    "english": "we",
+    "uzbek": "biz",
+    "category": "Pronoun",
+    "partOfSpeech": "pronoun",
+    "exampleEn": "We love football.",
+    "exampleUz": "Biz futbolni yaxshi ko'ramiz.",
+    "level": "beginner"
+  },
+  {
+    "id": 28,
+    "english": "say",
+    "uzbek": "aytmoq",
+    "category": "Communication",
+    "partOfSpeech": "verb",
+    "exampleEn": "They say it's going to rain.",
+    "exampleUz": "Ular yomg'ir yog'adi deyishyapti.",
+    "level": "beginner"
+  },
+  {
+    "id": 29,
+    "english": "her",
+    "uzbek": "uning (ayol)",
+    "category": "Pronoun",
+    "partOfSpeech": "pronoun",
+    "exampleEn": "I saw her at the market.",
+    "exampleUz": "Men uni bozorda ko'rdim.",
+    "level": "beginner"
+  },
+  {
+    "id": 30,
+    "english": "she",
+    "uzbek": "u (ayol)",
+    "category": "Pronoun",
+    "partOfSpeech": "pronoun",
+    "exampleEn": "She is a teacher.",
+    "exampleUz": "U o‘qituvchi.",
+    "level": "beginner"
+  },
+  {
+    "id": 31,
+    "english": "or",
+    "uzbek": "yoki",
+    "category": "Connector",
+    "partOfSpeech": "conjunction",
+    "exampleEn": "Do you want tea or coffee?",
+    "exampleUz": "Choy istaysizmi yoki qahvami?",
+    "level": "beginner"
+  },
+  {
+    "id": 32,
+    "english": "an",
+    "uzbek": "bir (artikl, unli tovushdan oldin)",
+    "category": "Grammar",
+    "partOfSpeech": "article",
+    "exampleEn": "She ate an apple.",
+    "exampleUz": "U olma yedi.",
+    "level": "beginner"
+  },
+  {
+    "id": 33,
+    "english": "will",
+    "uzbek": "-adi (kelasi zamon)",
+    "category": "Tense",
+    "partOfSpeech": "modal verb",
+    "exampleEn": "He will come tomorrow.",
+    "exampleUz": "U ertaga keladi.",
+    "level": "beginner"
+  },
+  {
+    "id": 34,
+    "english": "my",
+    "uzbek": "mening",
+    "category": "Pronoun",
+    "partOfSpeech": "possessive adjective",
+    "exampleEn": "This is my book.",
+    "exampleUz": "Bu mening kitobim.",
+    "level": "beginner"
+  },
+  {
+    "id": 35,
+    "english": "one",
+    "uzbek": "bir",
+    "category": "Number",
+    "partOfSpeech": "number",
+    "exampleEn": "I have one brother.",
+    "exampleUz": "Mening birta ukam bor.",
+    "level": "beginner"
+  },
+  {
+    "id": 36,
+    "english": "all",
+    "uzbek": "hamma",
+    "category": "Quantifier",
+    "partOfSpeech": "determiner",
+    "exampleEn": "All students are here.",
+    "exampleUz": "Hamma talabalar shu yerda.",
+    "level": "beginner"
+  },
+  {
+    "id": 37,
+    "english": "would",
+    "uzbek": "edi / bo‘lardi",
+    "category": "Tense",
+    "partOfSpeech": "modal verb",
+    "exampleEn": "I would help you if I could.",
+    "exampleUz": "Agar imkonim bo‘lsa, sizga yordam berardim.",
+    "level": "beginner"
+  },
+  {
+    "id": 38,
+    "english": "there",
+    "uzbek": "u yerda",
+    "category": "Place",
+    "partOfSpeech": "adverb",
+    "exampleEn": "The book is there.",
+    "exampleUz": "Kitob u yerda.",
+    "level": "beginner"
+  },
+  {
+    "id": 39,
+    "english": "their",
+    "uzbek": "ularning",
+    "category": "Pronoun",
+    "partOfSpeech": "possessive adjective",
+    "exampleEn": "That is their house.",
+    "exampleUz": "Bu ularning uyi.",
+    "level": "beginner"
+  },
+  {
+    "id": 40,
+    "english": "what",
+    "uzbek": "nima",
+    "category": "Question",
+    "partOfSpeech": "question word",
+    "exampleEn": "What is your name?",
+    "exampleUz": "Ismingiz nima?",
+    "level": "beginner"
+  },
+  {
+    "id": 41,
+    "english": "so",
+    "uzbek": "shuning uchun / juda",
+    "category": "Connector",
+    "partOfSpeech": "adverb/conjunction",
+    "exampleEn": "I was tired, so I went to bed early.",
+    "exampleUz": "Men charchagan edim, shuning uchun erta yotdim.",
+    "level": "beginner"
+  },
+  {
+    "id": 42,
+    "english": "up",
+    "uzbek": "yuqoriga",
+    "category": "Direction",
+    "partOfSpeech": "preposition/adverb",
+    "exampleEn": "She climbed up the ladder.",
+    "exampleUz": "U narvonga chiqdi.",
+    "level": "beginner"
+  },
+  {
+    "id": 43,
+    "english": "out",
+    "uzbek": "tashqariga",
+    "category": "Direction",
+    "partOfSpeech": "adverb/preposition",
+    "exampleEn": "He went out of the room.",
+    "exampleUz": "U xonadan chiqdi.",
+    "level": "beginner"
+  },
+  {
+    "id": 44,
+    "english": "if",
+    "uzbek": "agar",
+    "category": "Condition",
+    "partOfSpeech": "conjunction",
+    "exampleEn": "If it rains, we won’t go.",
+    "exampleUz": "Agar yomg‘ir yog‘sa, bormaymiz.",
+    "level": "beginner"
+  },
+  {
+    "id": 45,
+    "english": "about",
+    "uzbek": "haqida",
+    "category": "Topic",
+    "partOfSpeech": "preposition",
+    "exampleEn": "We talked about sports.",
+    "exampleUz": "Biz sport haqida gaplashdik.",
+    "level": "beginner"
+  },
+  {
+    "id": 46,
+    "english": "who",
+    "uzbek": "kim",
+    "category": "Question",
+    "partOfSpeech": "question word",
+    "exampleEn": "Who is that man?",
+    "exampleUz": "U odam kim?",
+    "level": "beginner"
+  },
+  {
+    "id": 47,
+    "english": "get",
+    "uzbek": "olmoq",
+    "category": "Action",
+    "partOfSpeech": "verb",
+    "exampleEn": "I will get a gift for her.",
+    "exampleUz": "Men unga sovg‘a olaman.",
+    "level": "beginner"
+  },
+  {
+    "id": 48,
+    "english": "which",
+    "uzbek": "qaysi",
+    "category": "Question",
+    "partOfSpeech": "question word",
+    "exampleEn": "Which color do you like?",
+    "exampleUz": "Qaysi rangni yoqtirasiz?",
+    "level": "beginner"
+  },
+  {
+    "id": 49,
+    "english": "go",
+    "uzbek": "bormoq",
+    "category": "Action",
+    "partOfSpeech": "verb",
+    "exampleEn": "I go to school every day.",
+    "exampleUz": "Men har kuni maktabga boraman.",
+    "level": "beginner"
+  }, 
   {
     "id": 50,
     "english": "me",
