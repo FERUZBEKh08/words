@@ -1,32 +1,61 @@
 import "../../App.css";
-import "./Navbar.css";
-
-import logoLight from "../../assets/logo light.png";
-
-import Browse from "../../assets/icons/folder.png";
-import Study from "../../assets/icons/book.png";
-import Quiz from "../../assets/icons/brain.png";
+import "./Navbar.scss";
+import { Link, useLocation } from "react-router-dom";
+import { FaSearch, FaQuestionCircle, FaHeart, FaInfoCircle } from "react-icons/fa";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
+  const location = useLocation();
+  const [activeTab, setActiveTab] = useState("");
+
+  // Localdan active tabni o'qish
+  useEffect(() => {
+    const savedTab = localStorage.getItem("activeTab");
+    if (savedTab) {
+      setActiveTab(savedTab);
+    }
+  }, []);
+
+  // Har safar path o'zgarsa localga yoz
+  useEffect(() => {
+    const currentPath = location.pathname;
+    setActiveTab(currentPath);
+    localStorage.setItem("activeTab", currentPath);
+  }, [location]);
+
   return (
-    <nav className="navbar">
-      <div className="navbar__in">
-        <img className="navbar-logo" src={logoLight} alt="" />
-        <ul>
-          <li>
-            <img src={Browse} alt="" />
-            Browse
-          </li>
-          <li>
-            <img src={Study} alt="" />
-            Study
-          </li>
-          <li>
-            <img src={Quiz} alt="" />
+    <div className="navbar">
+      <article className="navbar-top">
+        <p className="top-title">Premium English Vocabulary</p>
+        <p className="top-description">Professional til o&#39;rganish platformasi</p>
+      </article>
+
+      <ul className="navbar-bottom">
+        <li className={activeTab === "/" ? "active" : ""}>
+          <Link to="/">
+            <FaSearch className="icon" />
+            Search
+          </Link>
+        </li>
+        <li className={activeTab === "/quiz" ? "active" : ""}>
+          <Link to="/quiz">
+            <FaQuestionCircle className="icon" />
             Quiz
-          </li>
-        </ul>
-      </div>
-    </nav>
+          </Link>
+        </li>
+        <li className={activeTab === "/likes" ? "active" : ""}>
+          <Link to="/likes">
+            <FaHeart className="icon" />
+            Like
+          </Link>
+        </li>
+        <li className={activeTab === "/info" ? "active" : ""}>
+          <Link to="/info">
+            <FaInfoCircle className="icon" />
+            Info
+          </Link>
+        </li>
+      </ul>
+    </div>
   );
 }

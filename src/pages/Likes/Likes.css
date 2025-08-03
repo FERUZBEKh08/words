@@ -1,0 +1,18 @@
+.likes {
+  padding: 1.5rem;
+}
+.likes .likes-title {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: var(--three-color);
+  animation: marginLeft 0.5s forwards;
+}
+.likes .likes-empty {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
+.likes .wordBox {
+  margin: 25px 0px;
+}/*# sourceMappingURL=Likes.css.map */

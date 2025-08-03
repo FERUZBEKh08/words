@@ -1,0 +1,93 @@
+.info {
+  padding: 30px;
+}
+.info .info-top {
+  display: grid;
+  grid-gap: 20px;
+  text-align: center;
+}
+.info .info-top .top-title {
+  color: var(--three-color);
+  width: -moz-fit-content;
+  width: fit-content;
+  animation: marginLeft 0.5s linear forwards;
+}
+.info .info-top .top-description {
+  font-size: 20px;
+  background-color: var(--bg-accent-color);
+  padding: 20px;
+  border-radius: 20px;
+  color: var(--three-color);
+  line-height: 30px;
+  animation: scale 0.5s forwards;
+}
+.info .info-top .top-description span {
+  background-color: var(--four-color);
+  padding: 0px 10px;
+  border-radius: 10px;
+  color: var(--primary-color);
+  font-size: 15px;
+}
+.info .info-top .top-info {
+  background-color: var(--bg-accent-color);
+  text-align: start;
+  border-radius: 20px;
+  padding: 20px;
+  animation: scale 0.5s forwards;
+}
+.info .info-top .top-info li {
+  list-style: none;
+  color: var(--three-color);
+  line-height: 23px;
+}
+.info .info-top .top-words {
+  display: grid;
+  grid-gap: 25px;
+  animation: scale 0.5s forwards;
+}
+.info .info-top .top-words .words-all {
+  width: 100%;
+  padding: 50px 20px;
+  background-color: var(--bg-accent-color);
+  list-style: none;
+  border-radius: 20px;
+  color: var(--three-color);
+  margin: auto;
+}
+.info .info-top .top-words span {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  grid-gap: 25px;
+}
+.info .info-top .top-words span li {
+  width: 100%;
+  padding: 50px 20px;
+  background-color: var(--bg-accent-color);
+  list-style: none;
+  border-radius: 20px;
+  color: var(--three-color);
+  margin: auto;
+}
+
+@media (max-width: 732px) {
+  .info .info-top .top-description {
+    font-size: 16px;
+    background-color: var(--bg-accent-color);
+    padding: 20px;
+    border-radius: 20px;
+    color: var(--three-color);
+    line-height: 30px;
+    animation: scale 0.5s forwards;
+  }
+  .info .info-top .top-description span {
+    background-color: var(--four-color);
+    padding: 0px 10px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    font-size: 15px;
+  }
+  .info .info-top .top-words span {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+}/*# sourceMappingURL=Info.css.map */
